@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=h1, initial-scale">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+<br><br><br>
+    <div class="container">
+        <div class="heading">
+            <h1>SUZURAN</h1>
+            <img src="gambar/suzuran.webp" alt="">
+        </div>
+
+      <a href="#overlay"> <img src="gambar/lao.webp" alt="lao"></a>
+       <span><p>Raoh (ラオウ) / Misaki Mario (岬 麻理央)
+        Mikami Henry Daichi (三上ヘンリー大智)</p></span>
+
+      <a href="#overlay2"><img src="gambar/mercy.webp" alt=""></a>
+       <span> <p>Binzo (ビンゾー) / Miyauchi Kouzou (宮内幸三)
+        Itagaki Mizuki (板垣瑞生)</p></span>
+
+      <a href="#overlay3"><img src="gambar/binzo.webp" alt=""></a>
+       <span> <p>Mercy (マーシー) / Mashii Takehiko (真志井 雄彦)
+        Tokito Yuki (時任勇気) </p></span>
+
+      <a href="#overlay4"> <img src="gambar/mangoroku.webp" alt=""></a>
+       <span> <p>Yamaguchi Magoroku (山口孫六)
+        Yagi Yusei</p> </span>
+
+      <a href="#overlay5"> <img src="gambar/kansuke.webp" alt=""></a>
+       <span> <p>Itou Kamui (伊東カムイ)
+        Kimura Keito</p>  </span>
+
+      <a href="#overlay6"><img src="gambar/ittou.webp" alt=""> </a>
+       <span> <p> Seta Kansuke (瀬田完介)
+        Takahashi Yuuri (高橋祐理)</p> </span>
+    </div>
+
+
+
+
+    <audio autoplay id="myAudio">
+        <source src="suzuransong.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+      
+     <div class="myAudio">
+      <button onclick="playAudio()" class="play">P</button>
+      <button onclick="pauseAudio()" class="pause">S</button>
+     </div> 
+      
+
+    <script>
+        var audio = document.getElementById("myAudio");
+
+        function playAudio() {
+        audio.play();
+        }
+
+        function pauseAudio() {
+        audio.pause();
+        }
+    </script>
+
+
+
+
+<div id="overlay">
+  <img src="gambar/lao.webp" alt="lao" >
+  <a href="#" class="close">close</a>
+</div>
+
+<div id="overlay2">
+  <img src="gambar/mercy.webp" alt="lao" >
+  <a href="#" class="close">close</a>
+</div>
+
+<div id="overlay3">
+  <img src="gambar/binzo.webp" alt="lao" >
+  <a href="#" class="close">close</a>
+</div>
+
+<div id="overlay4">
+  <img src="gambar/mangoroku.webp" alt="lao" >
+  <a href="#" class="close">close</a>
+</div>
+
+<div id="overlay5">
+  <img src="gambar/kansuke.webp" alt="lao" >
+  <a href="#" class="close">close</a>
+</div>
+
+<div id="overlay6">
+  <img src="gambar/ittou.webp" alt="lao" >
+  <a href="#" class="close">close</a>
+</div>
+
+
+
+<br><br><br><br><br><br><br><br><br><br>
+</body>
+
+
+
+</html>
